@@ -65,6 +65,18 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
+              "Hello world",
+              style: TextStyle(
+              color: Colors.blue,
+              decoration: 
+              TextDecoration.lineThrough,
+              fontFamily: 'Tinos',
+              fontSize: 34.0,
+              fontStyle: FontStyle.italic,
+              fontWeight: FontWeight.bold,
+              ),
+            ),
+            const Text(
               'You have pushed the button this many times:',
             ),
             Text(
